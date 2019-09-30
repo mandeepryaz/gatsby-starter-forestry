@@ -45,6 +45,7 @@ build:
   install_dependencies_command: npm install
   preview_docker_image: forestryio/build:latest
   mount_path: "/opt/buildhome/repo"
+  working_dir: "/opt/buildhome/repo/src"
   instant_preview_command: npm run forestry:preview
   publish_command: npm run forestry:publish
   publish_env:
