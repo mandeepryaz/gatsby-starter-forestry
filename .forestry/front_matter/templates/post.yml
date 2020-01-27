@@ -8,3 +8,15 @@ fields:
 - type: datetime
   name: date
   label: Date
+- name: nav
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: nav-menu
+      file: 
+      path: 
+  label: nav
